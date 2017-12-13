@@ -91,7 +91,7 @@ def resizeImage(img):
         new_width = 175
     elif 175 > width >= 150:
         new_width = 150
-    elif 150 > width >= 125:
+    elif 150 > width >= 125；
         new_width = 125
     elif 125 > width >= 100:
         new_width = 100
