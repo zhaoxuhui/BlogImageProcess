@@ -33,7 +33,7 @@ def generateFormatName(paths, start_index):
     new_names = []
     root = paths[0][0: paths[0].rfind("\\")] + "\\"
     for i in range(len(paths)):
-        new_name = root + getDateString() + "-" + '{:0>2}'.format(i + 1 + start_index) + "." + paths[i].split(".")[1]
+        new_name = root + getDateString() + "-" + '{:0>2}'.format(i + 1 + start_index) + "." + paths[i].split(".")[-1]
         new_names.append(new_name)
     return new_names
 
